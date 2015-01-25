@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MotivatorComposerFragmentRoot"
+    android:gravity="center"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <EditText android:id="@+id/SubtitleEditText"
+        android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        style="@style/Subtitle" />
+    
+    <EditText android:id="@+id/TitleEditText"
+        android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+        android:layout_above="@id/SubtitleEditText" android:paddingBottom="@dimen/PhoneEditTextChromelessBottomPadding"
+        style="@style/Title" />
+        
+    <RelativeLayout
+        android:layout_above="@id/TitleEditText"
+        android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:gravity="center">
+	    <include layout="@layout/panel_motivator"
+	        android:gravity="center"
+	        android:layout_height="match_parent" android:layout_width="match_parent" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/poster_settings">
+	
+		<ListPreference
+			android:key="PreferenceKey_PosterTheme"
+			android:title="@string/PreferenceTitle_PosterTheme"
+			android:summary="@string/PreferenceSummary_PosterTheme"
+			android:entries="@array/PreferenceEntries_PosterTheme"
+			android:entryValues="@array/PreferenceValues_PosterTheme"
+			android:dialogTitle="@string/PreferenceTitle_PosterTheme"
+			android:defaultValue="fancy" />
+			
+		<ListPreference
+			android:key="PreferenceKey_FileFormat"
+			android:title="@string/PreferenceTitle_FileFormat"
+			android:summary="@string/PreferenceSummary_FileFormat"
+			android:entries="@array/PreferenceEntries_FileFormat"
+			android:entryValues="@array/PreferenceValues_FileFormat"
+			android:dialogTitle="@string/PreferenceTitle_FileFormat"
+			android:defaultValue="JPEG" />
+			
+		<ListPreference
+			android:key="PreferenceKey_PosterSize"
+			android:title="@string/PreferenceTitle_PosterSize"
+			android:summary="@string/PreferenceSummary_PosterSize"
+			android:entries="@array/PreferenceEntries_PosterSize"
+			android:entryValues="@array/PreferenceValues_PosterSize"
+			android:dialogTitle="@string/PreferenceTitle_PosterSize"
+			android:defaultValue="large" />
+
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/privacy">
+	
+		<CheckBoxPreference
+			android:key="PreferenceKey_Analytics"
+			android:title="@string/PreferenceTitle_Analytics"
+			android:summaryOff="@string/PreferenceSummaryOff_Analytics"
+			android:summaryOn="@string/PreferenceSummaryOn_Analytics"
+			android:defaultValue="true" />
+
+	</PreferenceCategory>
+</PreferenceScreen>

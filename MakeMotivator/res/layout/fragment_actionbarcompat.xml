@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/ActionBarCompat"
+	android:layoutAnimation="@anim/layout_appear_zoomin">
+
+	<ImageButton android:id="@+id/ActionBarCompatIconImageButton"
+        android:src="@drawable/ic_launcher"
+        style="@style/ActionBarCompatIcon"
+        android:contentDescription="@string/app_name" />
+
+	<ImageView style="@style/ActionBarCompatSpring"
+	    android:contentDescription="@string/divider" />
+	
+	<ImageButton android:id="@+id/ActionBarCompatSaveImageButton"
+		android:src="@drawable/ic_menu_save"
+		style="@style/ActionBarCompatButton"
+		android:contentDescription="@string/save" />
+	<ImageButton android:id="@+id/ActionBarCompatShareImageButton"
+		android:src="@drawable/ic_menu_share"
+		style="@style/ActionBarCompatButton"
+		android:contentDescription="@string/share" />
+	<ImageButton android:id="@+id/ActionBarCompatCustomizerImageButton"
+        android:src="@drawable/layer_customizer"
+        style="@style/ActionBarCompatButton"
+        android:contentDescription="@string/customize" />
+	<ImageButton android:id="@+id/ActionBarCompatOverflowImageButton"
+		android:src="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+		style="@style/ActionBarCompatButton"
+		android:contentDescription="@string/more_options" />
+</LinearLayout>

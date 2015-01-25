@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Motivador Fabricante</string>
+    <string name="app_name_short">Motivador</string>
+    <string name="about_app">Acerca de</string>
+    <string name="gallery">Galería</string>
+    <string name="cannot_load_picture">No se puede descargar la foto.</string>
+    <string name="camera">Cámara</string>
+    <string name="save">Guardar</string>
+    <string name="share">Compartir</string>
+    <string name="title_caps">TITULO</string>
+    <string name="subtitle">Tu Comentario Ingenioso.</string>
+    <string name="view_poster">Ver poster con</string>
+    <string name="share_poster">Compartir poster por</string>
+    <string name="customize">Personalizar</string>
+    <string name="settings">Ajustes</string>
+    <string name="please_turn_off_usb_storage">No puedo guardar nada sin memoria. Apaga modo de guardar USB.</string>
+    <string name="ind_making_poster">Hacer Poster</string>
+    <string name="ind_please_wait">Una foto vale mil palabras. Espera, estoy tecleando lo más rápido que puedo.</string>
+</resources>

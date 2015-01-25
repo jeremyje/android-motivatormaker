@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/MenuItemSave"
+		android:icon="@android:drawable/ic_menu_save"
+		android:title="@string/save"
+		android:showAsAction="always|withText"
+		 />
+	<item android:id="@+id/MenuItemShare"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/share"
+        android:showAsAction="always|withText"
+         />
+    <item android:id="@+id/MenuItemCustomize"
+    	android:icon="@drawable/layer_customizer"
+        android:title="@string/customize"
+        android:showAsAction="always"
+        android:actionLayout="@layout/actionview_customizer"
+         />
+    <item android:id="@+id/MenuItemViewWebGallery"
+        android:title="@string/web_gallery"
+        android:showAsAction="ifRoom"
+         />
+    <item android:id="@+id/MenuItemUploadToWebGallery"
+        android:title="@string/upload"
+        android:showAsAction="ifRoom"
+         />
+    <item android:id="@+id/MenuItemViewTutorial"
+        android:title="@string/tutorial"
+        android:showAsAction="ifRoom"
+         />
+    <item android:id="@+id/MenuItemSettings"
+        android:title="@string/settings"
+        android:showAsAction="ifRoom"
+         />
+    <item android:id="@+id/MenuItemAbout"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about_app"
+        android:showAsAction="ifRoom"
+         />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="PreferenceTitle_PosterTheme">Theme</string>
+    <string name="PreferenceSummary_PosterTheme">Style of the poster.</string>
+    
+    <string name="PreferenceTitle_FileFormat">File Format</string>
+    <string name="PreferenceSummary_FileFormat">Output image format to save poster.</string>
+    
+    <string name="PreferenceTitle_PosterSize">Size</string>
+    <string name="PreferenceSummary_PosterSize">Size of the poster.</string>
+    
+	<string name="PreferenceTitle_Analytics">Analytics</string>
+	<string name="PreferenceSummaryOff_Analytics">Anonymous usage stats will not be collected.</string>
+    <string name="PreferenceSummaryOn_Analytics">Collect anonymous usage stats to improve this app.</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.futonredemption.makemotivator"
+	android:id="@+id/CustomizerFragment"
+    style="@style/CustomizerFragment">
+    
+    <TextView style="@style/CustomizerItemTitle"
+  		android:text="@string/frame_and_title_color" />
+    
+  	<org.beryl.widget.ColorPickerView android:id="@+id/PosterForecolorColorPickerView"
+        style="@style/CustomizerItemDimensions"
+        app:ColorPalette="#FF555555,#FF888888,#FFbbbbbb,#FFffffff" />
+  	
+    <include layout="@layout/panel_customizer_options"
+        android:layout_height="@dimen/FingerSize" android:layout_width="match_parent" />
+    
+</LinearLayout>

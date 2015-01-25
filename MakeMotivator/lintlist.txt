@@ -1,0 +1,87 @@
+Valid issue categories:
+    Correctness
+    Security
+    Usability:Typography
+    Performance
+    Usability
+    Usability:Icons
+    Accessibility
+    Internationalization
+
+Valid issue id's:
+"ContentDescription": Ensures that image widgets provide a contentDescription
+"DuplicateIncludedIds": Checks for duplicate ids across layouts that are
+      combined with include tags
+"DuplicateIds": Checks for duplicate ids within a single layout
+"StateListReachable": Looks for unreachable states in a <selector>
+"InefficientWeight": Looks for inefficient weight declarations in
+      LinearLayouts
+"NestedWeights": Looks for nested layout weights, which are costly
+"DisableBaselineAlignment": Looks for LinearLayouts which should set
+      android:baselineAligned=false
+"ScrollViewSize": Checks that ScrollViews use wrap_content in scrolling
+      dimension
+"Deprecated": Looks for usages of deprecated layouts, attributes, and so on.
+"ObsoleteLayoutParam": Looks for layout params that are not valid for the
+      given parent layout
+"MergeRootFrame": Checks whether a root <FrameLayout> can be replaced with a
+      <merge> tag
+"NestedScrolling": Checks whether a scrolling widget has any nested scrolling
+      widgets within
+"ScrollViewCount": Checks that ScrollViews have exactly one child widget
+"AdapterViewChildren": Checks that AdapterViews do not define their children
+      in XML
+"UseCompoundDrawables": Checks whether the current node can be replaced by a
+      TextView using compound drawables.
+"UselessParent": Checks whether a parent layout can be removed.
+"UselessLeaf": Checks whether a leaf layout can be removed.
+"TooManyViews": Checks whether a layout has too many views
+"TooDeepLayout": Checks whether a layout hierarchy is too deep
+"GridLayout": Checks for potential GridLayout errors like declaring rows and
+      columns outside the declared grid dimensions
+"ExtraTranslation": Checks for translations that appear to be unused (no
+      default language string)
+"MissingTranslation": Checks for incomplete translations where not all strings
+      are translated
+"HardcodedText": Looks for hardcoded text attributes which should be converted
+      to resource lookup
+"Proguard": Looks for problems in proguard.cfg files
+"PxUsage": Looks for use of the "px" dimension
+"TextFields": Looks for text fields missing inputType or hint settings
+"UnusedResources": Looks for unused resources
+"UnusedIds": Looks for unused id's
+"InconsistentArrays": Checks for inconsistencies in the number of elements in
+      arrays
+"ManifestOrder": Checks for manifest problems like <uses-sdk> after the
+      <application> tag
+"ExportedService": Checks for exported services that do not require
+      permissions
+"GrantAllUris": Checks for <grant-uri-permission> elements where everything is
+      shared
+"GifUsage": Checks for images using the GIF file format which is discouraged
+"IconDensities": Ensures that icons provide custom versions for all supported
+      densities
+"IconMissingDensityFolder": Ensures that all the density folders are present
+"IconDipSize": Ensures that icons across densities provide roughly the same
+      density-independent size
+"IconExpectedSize": Ensures that launcher icons, notification icons etc have
+      the correct size
+"IconLocation": Ensures that images are not defined in the density-independent
+      drawable folder
+"IconDuplicates": Finds duplicated icons under different names
+"IconDuplicatesConfig": Finds icons that have identical bitmaps across various
+      configuration parameters
+"IconNoDpi": Finds icons that appear in both a -nodpi folder and a dpi folder
+"TypographyDashes": Looks for usages of hyphens which can be replaced by n
+      dash and m dash characters
+"TypographyQuotes": Looks for straight quotes which can be replaced by curvy
+      quotes
+"TypographyFractions": Looks for fraction strings which can be replaced with a
+      fraction character
+"TypographyEllipsis": Looks for ellipsis strings (...) which can be replaced
+      with an ellipsis character
+"TypographyOther": Looks for miscellaneous typographical problems like
+      replacing (c) with ©
+"MissingPrefix": Detect XML attributes not using the Android namespace
+"Overdraw": Looks for overdraw issues (where a view is painted only to be
+      fully painted over)

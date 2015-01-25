@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.futonredemption.makemotivator"
+    android:versionCode="51"
+    android:versionName="5.1" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="16" />
+
+    <!-- Base Permissions -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Google Analytics Required -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Android Market Billing -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent="com.futonredemption.makemotivator.ApplicationBackupAgent"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MainActivityTheme" >
+        <activity
+            android:name="com.futonredemption.makemotivator.activities.MainActivity"
+            android:label="@string/app_name_short"
+            android:launchMode="singleTask"
+            android:theme="@style/MainActivityTheme"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="@string/create_motivator" >
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter android:label="@string/create_motivator" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.futonredemption.makemotivator.activities.AboutAppActivity"
+            android:label="@string/about_motivator"
+            android:theme="@style/AboutActivityTheme" />
+        <activity
+            android:name="com.futonredemption.makemotivator.activities.MainPreferencesActivity"
+            android:label="@string/motivator_settings"
+            android:theme="@style/PreferenceActivityTheme" />
+        <activity
+            android:name="com.futonredemption.makemotivator.activities.WebGalleryUploadActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/motivator_web_gallery"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:theme="@style/InvisibleActivityTheme" />
+        <activity
+            android:name="com.futonredemption.makemotivator.activities.TutorialActivity"
+            android:label="@string/motivator_tutorial"
+            android:theme="@style/AboutActivityTheme" />
+        
+        <service
+            android:name="com.futonredemption.makemotivator.services.WebGalleryUploadService"
+            android:exported="false" />
+        <service android:name="org.beryl.media.RegisterMediaIntentService" />
+
+        <receiver android:name="com.futonredemption.makemotivator.receivers.DeferredUploadTripBroadcastReceiver" android:enabled="false">
+             <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIKpXSMLZWLx5ZyjyGVdvjsivZ_1VZyzE0Tv1AMg" />
+    </application>
+
+</manifest>

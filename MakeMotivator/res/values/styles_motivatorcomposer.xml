@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Poster_Dimensions">
+        <item name="VirtualWidth">@dimen/Poster_Vwidth</item>
+        <item name="VirtualHeight">@dimen/Poster_Vheight</item>
+    </style>
+    
+    <style name="PictureFrame_Dimensions">
+        <item name="VirtualLeft">@dimen/PictureFrame_Vleft</item>
+        <item name="VirtualTop">@dimen/PictureFrame_Vtop</item>
+        <item name="VirtualWidth">@dimen/PictureFrame_Vwidth</item>
+        <item name="VirtualHeight">@dimen/PictureFrame_Vheight</item>
+    </style>
+    
+    <style name="PictureFramePadding_Dimensions">
+        <item name="VirtualLeft">@dimen/PictureFramePadding_Vleft</item>
+        <item name="VirtualTop">@dimen/PictureFramePadding_Vtop</item>
+        <item name="VirtualWidth">@dimen/PictureFramePadding_Vwidth</item>
+        <item name="VirtualHeight">@dimen/PictureFramePadding_Vheight</item>
+    </style>
+
+    <style name="Picture_Dimensions">
+        <item name="VirtualLeft">@dimen/Picture_Vleft</item>
+        <item name="VirtualTop">@dimen/Picture_Vtop</item>
+        <item name="VirtualWidth">@dimen/Picture_Vwidth</item>
+        <item name="VirtualHeight">@dimen/Picture_Vheight</item>
+    </style>
+    
+    <style name="Title_Dimensions">
+        <item name="VirtualLeft">@dimen/Title_Vleft</item>
+        <item name="VirtualTop">@dimen/Title_Vtop</item>
+        <item name="VirtualWidth">@dimen/Title_Vwidth</item>
+        <item name="VirtualHeight">@dimen/Title_Vheight</item>
+    </style>
+
+    <style name="Subtitle_Dimensions">
+        <item name="VirtualLeft">@dimen/Subtitle_Vleft</item>
+        <item name="VirtualTop">@dimen/Subtitle_Vtop</item>
+        <item name="VirtualWidth">@dimen/Subtitle_Vwidth</item>
+        <item name="VirtualHeight">@dimen/Subtitle_Vheight</item>
+    </style>
+    
+    <style name="Poster" parent="Poster_Dimensions">
+        <item name="ClampOnWidth">false</item>
+    </style>
+
+    <style name="PictureFrame" parent="PictureFrame_Dimensions">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    
+    <style name="PictureFramePadding" parent="PictureFramePadding_Dimensions">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="Picture" parent="Picture_Dimensions">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    
+    <style name="Title" parent="Title_Dimensions">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:hint">@string/title_caps</item>
+        <item name="android:textSize">@dimen/TitleTextSize</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">textCapCharacters|textAutoCorrect|textMultiLine|textEmailSubject</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:background">@drawable/selector_transparent_edittext</item>
+        <item name="android:text">@string/nolocal_test_title</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="Subtitle" parent="Subtitle_Dimensions">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:hint">@string/subtitle</item>
+        <item name="android:textSize">@dimen/SubtitleTextSize</item>
+        <item name="android:lines">2</item>
+        <item name="android:inputType">textCapSentences|textMultiLine|textAutoCorrect|textEmailSubject</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@drawable/selector_transparent_edittext</item>
+        <item name="android:text">@string/nolocal_test_subtitle</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

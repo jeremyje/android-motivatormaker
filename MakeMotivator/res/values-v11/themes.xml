@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainActivityTheme" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="PreferenceActivityTheme" parent="@style/MainActivityTheme"></style>
+
+    <style name="AboutActivityTheme" parent="@style/MainActivityTheme">
+        <item name="android:windowBackground">@color/about_background</item>
+    </style>
+    
+</resources>

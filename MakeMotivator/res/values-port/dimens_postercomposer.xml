@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Poster
+    Item            Left    Top     Right   Bottom  Width   Height  Thickness
+    Everything      0       0       600     750     600     750 
+    Picture Frame   50      50      550     600     500     550     2
+    Picture         54      54      546     596     492     542 
+    Title           40      610     560     662     520     52  
+    Subtitle        40      670     560     710     520     40  
+    -->
+	<dimen name="Poster_Vwidth">600dp</dimen>
+    <dimen name="Poster_Vheight">750dp</dimen>
+    
+    <dimen name="PictureFrame_Vleft">50dp</dimen>
+    <dimen name="PictureFrame_Vtop">50dp</dimen>
+    <dimen name="PictureFrame_Vwidth">500dp</dimen>
+    <dimen name="PictureFrame_Vheight">550dp</dimen>
+    
+    <dimen name="PictureFramePadding_Vleft">52dp</dimen>
+    <dimen name="PictureFramePadding_Vtop">52dp</dimen>
+    <dimen name="PictureFramePadding_Vwidth">496dp</dimen>
+    <dimen name="PictureFramePadding_Vheight">546dp</dimen>
+    
+    <dimen name="Picture_Vleft">54dp</dimen>
+    <dimen name="Picture_Vtop">54dp</dimen>
+    <dimen name="Picture_Vwidth">492dp</dimen>
+    <dimen name="Picture_Vheight">542dp</dimen>
+    
+    <dimen name="Title_Vleft">40dp</dimen>
+    <dimen name="Title_Vtop">610dp</dimen>
+    <dimen name="Title_Vwidth">520dp</dimen>
+    <dimen name="Title_Vheight">52dp</dimen>
+    
+    <dimen name="Subtitle_Vleft">40dp</dimen>
+    <dimen name="Subtitle_Vtop">670dp</dimen>
+    <dimen name="Subtitle_Vwidth">520dp</dimen>
+    <dimen name="Subtitle_Vheight">40dp</dimen>
+    
+</resources>

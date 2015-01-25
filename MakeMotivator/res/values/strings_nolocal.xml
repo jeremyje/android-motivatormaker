@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="nolocal_test_title"></string>
+    <string name="nolocal_test_subtitle"></string>
+    <string name="nolocal_generic_error">This option is not supported on your device.</string>
+</resources>

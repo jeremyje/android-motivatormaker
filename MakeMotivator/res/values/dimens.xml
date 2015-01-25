@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="PictureFrameThickness">3dp</dimen>
+    <dimen name="PictureFramePadding">7dp</dimen>
+    <dimen name="ControllerSize">120dp</dimen>
+
+    <dimen name="button_margin">1dp</dimen>
+    <dimen name="picture_controller_button_size">@dimen/FingerSize</dimen>
+
+    <dimen name="FingerSize">48dp</dimen>
+    <dimen name="ActionBarSize">@dimen/FingerSize</dimen>
+	<dimen name="ActionBarButtonWidth">56dp</dimen>
+    <dimen name="PhoneEditTextChromelessBottomPadding">4dp</dimen>
+
+    <dimen name="TitleTextSize">27sp</dimen>
+    <dimen name="SubtitleTextSize">18sp</dimen>
+    <dimen name="CustomizerFragmentSize">320dp</dimen>
+    <dimen name="CustomizerControlHeight">64dp</dimen>
+    
+    <dimen name="PreferredPaddingLeft">8dp</dimen>
+    <dimen name="PreferredPaddingRight">8dp</dimen>
+    
+    <dimen name="CustomizerDrawableCornerRadius">4dp</dimen>
+    <dimen name="ActivityListDrawablePadding">24dp</dimen>
+</resources>

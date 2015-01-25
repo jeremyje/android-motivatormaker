@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="PreferenceEntries_PosterTheme">
+        <item>Standard</item>
+        <item>Simple</item>
+    </string-array>
+    
+    <string-array name="PreferenceValues_PosterTheme">
+        <item>fancy</item>
+        <item>plain</item>
+    </string-array>
+    
+    <string-array name="PreferenceEntries_FileFormat">\
+        <item>Standard (JPEG)</item>
+        <item>Lossless (PNG)</item>
+    </string-array>
+    
+    <string-array name="PreferenceValues_FileFormat">
+        <item>JPEG</item>
+        <item>PNG</item>
+    </string-array>
+    
+    <string-array name="PreferenceEntries_PosterSize">
+        <item>Small</item>
+        <item>Medium (2x)</item>
+        <item>Large (3x)</item>
+        <item>Extra Large (4x)</item>
+        <item>Huge (5x)</item>
+        <item>Maximum (Dangerous)</item>
+    </string-array>
+    
+    <string-array name="PreferenceValues_PosterSize">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>max</item>
+    </string-array>
+
+</resources>

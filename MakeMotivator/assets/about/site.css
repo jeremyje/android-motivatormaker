@@ -1,0 +1,271 @@
+/*
+  Honeycomb About - http://www.colourlovers.com/palette/1439773/Honeycomb
+  Paper White: #F0EEE1
+  
+*/
+
+* 
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: 0;
+}
+
+html, body 
+{
+    height: 100%;
+}
+
+body
+{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Helvetica, Sans-Serif;
+    color: #F0EEE1;
+    background: #212126;
+}
+
+a {
+  color: #AFBFFF;
+}
+
+h2
+{
+    width: 100%;
+    text-align: center;
+}
+
+h2, h3
+{
+    display: block;
+    border-bottom: 1px solid #343439;
+    margin-bottom: 6px;
+}
+
+#license
+{
+    font-family: monospace;
+}
+/* #35595B */
+#header
+{
+    background: #2C4B4D;
+    border-bottom: 3px solid #70856D;
+    font-size: xx-large;
+    color: White;
+    width: 100%;
+    display: block;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(44,75,77)),
+        color-stop(1, rgb(53,89,91))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(44,75,77) 0%,
+        rgb(53,89,91) 100%
+    );
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    padding-bottom: .1em;
+    padding-top: .1em;
+    margin-bottom: .5em;
+}
+
+#wrapper
+{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -2.5em;
+}
+
+#push-footer, #footer
+{
+    height: 2.5em;
+}
+
+#footer
+{
+    color: White;
+    width: 100%;
+    display: block;
+    background: #161619;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.4);
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+.button 
+{
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.green {
+	color: #F2EFE1;
+	border: solid 1px #E3E3C8;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2C4B4D), to(#35595B));
+	background: -moz-linear-gradient(top,  #2C4B4D,  #35595B);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2C4B4D', endColorstr='#35595B');
+}
+.green:hover {
+	background: #70856D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#70856D), to(#2C4B4D));
+	background: -moz-linear-gradient(top,  #70856D,  #2C4B4D);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#70856D', endColorstr='#2C4B4D');
+}
+.green:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#2C4B4D), to(#35595B));
+	background: -moz-linear-gradient(top,  #2C4B4D,  #35595B);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2C4B4D', endColorstr='#35595B');
+}
+
+input:hover, input:focus
+{
+    -moz-box-shadow: 0 0 5px #70856D;
+    -webkit-box-shadow: 0 0 5px #70856D;
+    box-shadow: 0 0 5px #70856D;
+}
+
+ul
+{
+  
+}
+
+li
+{
+  margin-top: .2em;
+}
+
+/******************** Top Navigation ************************/
+ul#navlist
+{
+    font-size: .7em;
+    float: right;
+}
+
+ul#navlist li
+{
+    display: inline;
+}
+
+ul#navlist li a
+{
+    border-left: 1px dotted #8A8575;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: .5em;
+    color: #FFFFFF;
+    text-decoration: none;
+    float: left;
+}
+
+ul#navlist li:first-child a
+{
+    border: none;
+}
+
+ul#navlist li a:hover
+{
+    color: #C0C491;
+}
+
+/********************* End top navigation ***************************/
+
+
+
+/*
+Dark Blue Green = #2C4B4D
+Jade Green = #70856D
+Jadeite = #C0C491
+Dark Limestone = #E3E3C8
+Limestone = #F2EFE1
+
+http://www.colourlovers.com/palette/142587/Shades_of_Jade
+*/

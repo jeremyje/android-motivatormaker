@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\panel_motivator_phone.xml" />
+        <ignore path="res\layout\panel_motivator_tablet.xml" />
+    </issue>
+    <issue id="Overdraw">
+        <ignore path="res\layout\panel_panzoompicture.xml" />
+    </issue>
+    <issue id="UnusedResources">
+        <ignore path="res\values\attrs.xml" />
+        <ignore path="res\layout\activity_main_actionbarnative.xml" />
+    </issue>
+</lint>

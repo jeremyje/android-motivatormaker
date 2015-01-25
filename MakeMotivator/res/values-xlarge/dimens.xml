@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="FingerSize">64dp</dimen>
+    <dimen name="TitleTextSize">26sp</dimen>
+    <dimen name="SubtitleTextSize">22sp</dimen>
+</resources>

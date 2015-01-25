@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_selection">@color/blue_holo</color>
+    <color name="blue_holo">#9933B5E5</color>
+    <color name="bg_customizer">#aa222222</color>
+    <color name="bg_customizer_title">#33000000</color>
+    
+    <color name="about_background">#ff212127</color>
+    <color name="tutorial_text_background">#ff111111</color>
+    <color name="darken">#33000000</color>
+</resources>

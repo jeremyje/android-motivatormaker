@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@drawable/bg_dark_checker">
+
+	<com.futonredemption.makemotivator.widget.PanZoomImageView android:id="@+id/MotivatorPicturePanZoomImageView"
+		android:layout_height="match_parent" android:layout_width="match_parent"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="visible" />
+
+	<fragment class="com.futonredemption.makemotivator.fragments.PictureControlsFragment"
+		android:id="@+id/PictureControlsFragment"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+    	android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+    	android:layout_alignWithParentIfMissing="true">
+	    <!-- Preview: layout=@layout/fragment_picturecontrols -->
+	</fragment>
+
+</RelativeLayout>

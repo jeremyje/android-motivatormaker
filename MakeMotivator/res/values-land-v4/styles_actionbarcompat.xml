@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBarCompat" parent="@style/ActionBarCompatBase">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/ActionBarSize</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="ActionBarCompatSpring" parent="@style/ActionBarCompatSpringBase">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ActionBarCompatIcon" parent="@style/ActionBarCompatIconBase">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ActionBarCompatButton" parent="@style/ActionBarCompatButtonBase">
+        <item name="android:layout_width">@dimen/ActionBarSize</item>
+        <item name="android:layout_height">@dimen/ActionBarButtonWidth</item>
+    </style>
+    
+</resources>

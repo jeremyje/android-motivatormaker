@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="ScaledCompositeLayout">
+		<attr name="VirtualWidth" format="dimension" />
+		<attr name="VirtualHeight" format="dimension" />
+		<attr name="ClampOnWidth" format="boolean" />
+	</declare-styleable>
+	
+	<declare-styleable name="ScaledCompositeLayout_Layout">
+		<attr name="VirtualTop" format="dimension" />
+		<attr name="VirtualLeft" format="dimension" />
+		<attr name="VirtualBottom" format="dimension" />
+		<attr name="VirtualRight" format="dimension" />
+		<attr name="VirtualWidth" />
+		<attr name="VirtualHeight" />
+	</declare-styleable>
+	
+	<declare-styleable name="ColorPickerView">
+		<attr name="ColorPalette" format="string" />
+	</declare-styleable>
+</resources>

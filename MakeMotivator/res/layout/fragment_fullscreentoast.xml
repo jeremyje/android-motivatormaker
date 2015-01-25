@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FullscreenToastFragmentRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_darken">
+
+    <Button android:id="@+id/ActionButton"
+        style="@style/TransparentButton"
+        android:drawableLeft="@android:drawable/ic_menu_info_details"
+        android:text="@string/firsttime_view_tutorial"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"
+    	android:layout_margin="@dimen/PreferredPaddingLeft"
+    	android:background="@android:drawable/toast_frame"
+        />
+</RelativeLayout>

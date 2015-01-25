@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+	android:layout_alignWithParentIfMissing="true"
+	android:layoutAnimation="@anim/layout_appear_zoomin">
+	
+  	<ImageButton android:id="@+id/PickFromGalleryImageButton"
+       android:src="@drawable/ic_menu_gallery"
+       style="@style/PictureControllerButton"
+       android:contentDescription="@string/gallery" />
+       
+	<ImageButton android:id="@+id/PickFromCameraImageButton"
+       android:src="@drawable/ic_menu_camera"
+       style="@style/PictureControllerButton"
+       android:contentDescription="@string/camera" />
+	
+	<ImageButton android:id="@+id/RotateImageImageButton"
+       android:src="@drawable/ic_menu_rotate"
+       style="@style/PictureControllerButton"
+       android:contentDescription="@string/rotate_picture" />
+
+</LinearLayout>

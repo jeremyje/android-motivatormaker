@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/ActionBarCompatFragment"
+        android:layout_width="@dimen/ActionBarSize"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        class="com.futonredemption.makemotivator.fragments.ActionBarCompatFragment" >
+
+        <!-- Preview: layout=@layout/fragment_actionbarcompat -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/MotivatorComposerFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ActionBarCompatFragment"
+        class="com.futonredemption.makemotivator.fragments.MotivatorComposerFragment" >
+
+        <!-- Preview: layout=@layout/fragment_motivatorcomposer -->
+    </fragment>
+
+</RelativeLayout>

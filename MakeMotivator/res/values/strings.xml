@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Motivator Maker</string>
+    <string name="app_name_short">Motivator</string>
+    <string name="motivator_settings">Motivator Maker Settings</string>
+    <string name="about_motivator">About Motivator Maker</string>
+    <string name="about_app">About</string>
+    <string name="gallery">Gallery</string>
+    <string name="create_motivator">@string/app_name</string>
+    <string name="cannot_load_picture">Could not load picture.</string>
+    <string name="camera">Camera</string>
+    <string name="rotate_picture">Rotate</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="title_caps">TITLE</string>
+    <string name="subtitle">Witty Comment</string>
+    <string name="view_poster">View poster with</string>
+    <string name="share_poster">Share poster by</string>
+    <string name="customize">Customize</string>
+    <string name="settings">Settings</string>
+    <string name="poster_settings">Poster Settings</string>
+    <string name="privacy">Privacy</string>
+    <string name="close">Close</string>
+    <string name="divider">|</string>
+    <string name="please_turn_off_usb_storage">I can\'t save anything without memory. Turn off USB storage mode.</string>
+    <string name="ind_making_poster">Making Poster</string>
+    <string name="ind_please_wait">A picture is worth a thousand words. So hold on, I\'m typing as fast as I can.</string>
+    <string name="motivator_subtitle">Maker</string>
+    <string name="title_needs_to_be_longer">Title needs to be longer.</string>
+    <string name="subtitle_needs_to_be_longer">Subtitle needs to be longer.</string>
+    <string name="motivator_web_gallery">Motivator Gallery</string>
+    <string name="upload_to_motivator_web_gallery">Upload to Motivator Gallery</string>
+    <string name="uploading_poster">Uploading Motivator Poster&#8230;</string>
+    <string name="upload_complete">uploaded.</string>
+    <string name="click_to_view_image">Click here to view on web.</string>
+    <string name="upload_failed">Upload Failed</string>
+    <string name="not_connected_to_internet">You are not connected to the internet.</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="upload">Upload</string>
+    <string name="web_gallery">Web Gallery</string>
+    <string name="motivator_tutorial">Motivator Tutorial</string>
+    <string name="more_options">More Options</string>
+    <string name="poster_in_poster">Poster in Poster</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    
+    <string name="tutorial_phone_orientation">Hold your device sideways to make a wide poster. Upright to make it tall.</string>
+    <string name="tutorial_upload_to_gallery">Upload to Motivator Gallery to share with everyone. See what others have made too.</string>
+    <string name="tutorial_frame_color">The frame color is based on the picture. Change it by tapping the colored wrench.</string>
+    <string name="tutorial_options">The menu has more goodies. Settings allows you to change poster type and quality.</string>
+    <string name="firsttime_view_tutorial">Tap here for a tutorial. Learn about new features and tricks.</string>
+    <string name="you_need_a_picture">This looks too dull. Select a picture from the gallery or camera.</string>
+</resources>

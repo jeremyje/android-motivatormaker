@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="CustomizerFragment" parent="@style/CustomizerFragmentDimensions">
+		<item name="android:background">@color/bg_customizer</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:padding">4dp</item>
+	</style>
+    
+    <style name="CustomizerItemTitle">
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:layout_width">match_parent</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">16sp</item>
+    	<item name="android:background">@color/bg_customizer_title</item>
+    </style>
+  		
+    <style name="CustomizerItemDimensions">
+    	<item name="android:layout_height">@dimen/CustomizerControlHeight</item>
+    	<item name="android:layout_width">match_parent</item>
+    </style>
+    
+    <style name="CustomizerSelector" parent="@style/CustomizerItemDimensions">
+    	<item name="android:orientation">horizontal</item>
+    </style>
+    
+    <style name="CustomizerSelectorButton">
+    	<item name="android:background">@android:color/transparent</item>
+    	<item name="android:layout_height">match_parent</item>
+    	<item name="android:layout_width">@dimen/CustomizerControlHeight</item>
+    	<item name="android:textSize">32sp</item>
+    </style>
+    
+    <style name="CustomizerSelectorTextView">
+    	<item name="android:background">@android:color/transparent</item>
+    	<item name="android:layout_height">match_parent</item>
+    	<item name="android:layout_width">0dp</item>
+    	<item name="android:layout_weight">1</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">15sp</item>
+    </style>
+    
+</resources>

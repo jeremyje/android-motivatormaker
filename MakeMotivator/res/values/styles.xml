@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="CameraSurface">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:clickable">true</item>
+	</style>
+
+	<style name="MotivatorPictureFrame">
+		<item name="android:padding">@dimen/PictureFramePadding</item>
+		<item name="android:background">@drawable/shape_pictureframe_white</item>
+	</style>
+
+	<style name="EmptyPictureMessage">
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="EmptyPictureOptionsPanel">
+		<item name="android:padding">@dimen/PictureFramePadding</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+	</style>
+
+    <style name="TransparentButton">
+        <item name="android:background">@drawable/selector_actionbar_button</item>
+    </style>
+    
+    <style name="BorderlessButton">
+    </style>
+    
+    <style name="ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        
+    </style>
+
+</resources>

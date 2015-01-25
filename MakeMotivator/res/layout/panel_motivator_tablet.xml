@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.futonredemption.makemotivator.widget.ScaledCompositeLayout android:id="@+id/PosterRootScaledCompositeLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/Poster">
+	<ImageView android:id="@+id/PictureFrameView"
+	    android:layout_height="match_parent" android:layout_width="match_parent"
+		style="@style/PictureFrame" />
+	<ImageView android:id="@+id/PictureFramePaddingView"
+	    android:layout_height="match_parent" android:layout_width="match_parent"
+        style="@style/PictureFramePadding" />
+        
+	<include layout="@layout/panel_panzoompicture" android:id="@+id/PanZoomPictureRelativeLayout"
+        style="@style/Picture" />
+        
+	<com.futonredemption.makemotivator.widget.AutoSizedEditText android:id="@+id/TitleEditText"
+	    android:layout_height="wrap_content" android:layout_width="wrap_content"
+        style="@style/Title" />
+	<EditText android:id="@+id/SubtitleEditText"
+	    android:layout_height="wrap_content" android:layout_width="wrap_content"
+        style="@style/Subtitle" />
+        
+</com.futonredemption.makemotivator.widget.ScaledCompositeLayout>
